@@ -10,19 +10,19 @@ body {
 
 main {
     width: 25rem;
-    height: 32rem;
+    min-height: 32rem;
     background-color: #fbea48;
     margin: auto;
     margin-top: 5rem;
+    padding-bottom: 4rem;
 
 }
 
 form {
     margin-top: 2.3rem;
     width: 25rem;
-    height: 22.2rem;
+    min-height: 22.2rem;
     background-color: white;
-    position: absolute;
     margin-left: 2.5rem;
     padding: 1.8rem;
 
@@ -47,8 +47,8 @@ form {
     position: relative;
     display: flex;
     gap: 2rem;
-    top: 26rem;
-    left: 15rem;
+    top: 4rem;
+    left: 12rem;
     cursor: pointer;
 }
 
@@ -93,23 +93,39 @@ input {
 
 }
 
-/* .last input {
-    border: none;
-} */
-
 .last label {
     margin-bottom: 0.5rem;
 }
 
 textarea {
-    width: 100%;
-    height: 2rem;
+    max-width: 22rem;
+    min-height: 2rem;
     border: none;
     border-bottom: 1px solid #9c9f9f;
-
+    position: relative;
 
 
 }
+
+/* .cl {
+    position: relative;
+    width: 100%;
+}
+
+.cli {
+    width: 3rem;
+    height: 3rem;
+    border: 0px solid black;
+    border-radius: 50%;
+    right: 0;
+    top: 0.5rem;
+    position: absolute;
+
+}
+
+.cli:hover {
+    border: 1px solid black;
+} */
 
 input:focus {
     border: none;
@@ -118,3 +134,12 @@ input:focus {
 }
 
 /* #9c9f9f */
+
+input.bio:focus {
+    border: none;
+    outline: none;
+}
+
+input.bio {
+    border: none;
+}
