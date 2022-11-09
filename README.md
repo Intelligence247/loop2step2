@@ -11,7 +11,7 @@ Clone or download this repository and run with a local server of open `index.htm
 - Html
 - Css
 ## Preview Here
-[Demo](https://rawcdn.githack.com/Intelligence247/loop2step2/6feb6efc477afe57a04aeba093caf26fec590c3e/index.html)
+[Demo](https://rawcdn.githack.com/Intelligence247/loop2step2/6775ec22648ce855ed5fbfae7a162fcaaffa1469/index.html)
 
 ![screnshot](/media/sketch.png)
 ## Contact
